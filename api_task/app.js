@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 app.use('/api', router);
 
-const mongoUri = process.env.MONGODB_URI='mongodb+srv://root:root@cluster0.jwrqjyh.mongodb.net/Notesdata';
+const mongoUri = process.env.MONGODB_URI='mongodb+srv://root:root@cluster0.jwrqjyh.mongodb.net/Notesdatas';
 if (!mongoUri) {
     console.error('MONGODB_URI environment variable is not set.');
     process.exit(1);
